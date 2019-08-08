@@ -1,0 +1,28 @@
+body,
+html {
+  margin: 0;
+  overflow: hidden;
+
+  height: 100%;
+}
+
+body {
+  background: blueviolet;
+}
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.webcam-frame {
+  border: 10px solid #6cff8c;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
